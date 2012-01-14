@@ -1,0 +1,43 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+ *= require_self
+ *= require_tree . 
+*/
+
+/* RESET */
+html,body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,fieldset,input,abbr,article,aside,command,details,figcaption,figure,footer,header,hgroup,mark,meter,nav,output,progress,section,summary,time { margin: 0; padding: 0; }
+h1,h2,h3,h4,h5,h6,pre,code,address,caption,cite,code,em,strong,th,figcaption { font-size: 1em; font-weight: normal; font-style: normal; }
+fieldset,iframe { border: none; }
+caption,th { text-align: left; }
+table { border-collapse: collapse; border-spacing: 0; }
+article,aside,footer,header,hgroup,nav,section,figure,figcaption { display: block; }
+body{min-width:530px; min-height:438px}
+
+/*
+Ryan Sadler Css
+*/
+body { font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; background-color:#FFF;; color: #333; -webkit-font-smoothing: antialiased; }
+
+a { color: #08c; }
+a:link, a:visited, a:active { text-decoration: none; }
+a:hover { text-decoration: underline; }
+a.block { display: block; cursor: pointer; }
+a.block span,
+a.block em { color:#08c; cursor: pointer; }
+a.block:hover { text-decoration: none; }
+a.block:hover span,
+a.block:hover em { color: #08c; text-decoration: underline; }
+
+
+#main { position:absolute;top:40%;width:100%; min-width:980px;  clear:both; color:#76797c; left:0% ;background-color: #000; line-height:140%;height:25%;min-height:90px; font-size:65px; z-index:0}
+#contact {position:absolute;background-image:url(contact.png);background-repeat:no-repeat;width:50px;height:120px;background-color:#941108;margin-top:75px;z-index:100}
+#skill-set{position:absolute;width:65%;right:0px;top:60%;height:100px;background-color:#393939;float:right;height:10%;min-height:70px; color:#e4e4e4}
+.pad-left{padding-left:60px;}
+.white{color:#FFF}
+.dark-gray{color:#000}
+.bottom-text{position:absolute;bottom:0;margin-bottom:10px;margin-left:20px}
+.shadow{-moz-box-shadow: 0 0 5px #888;
+-webkit-box-shadow: 0 0 5px#888;
+box-shadow: 0 0 5px #888;}

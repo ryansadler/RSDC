@@ -7,6 +7,6 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
-$('#contact').live('click',function(){
+$('#main').live('click',function(){
 	window.open('mailto:info@ryan-sadler.com', '_self')
 })
